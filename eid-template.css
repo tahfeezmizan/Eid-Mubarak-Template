@@ -1,0 +1,45 @@
+@import url('http://fonts.cdnfonts.com/css/sketsa-ramadhan');
+/* font-family: 'Sketsa Ramadhan', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+    background-image: url(image/mosque\ image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    position: relative;
+}  
+
+div.moon {
+	position: absolute;
+	top: 25% !important;
+	left: 82% !important;
+	transform: translate(-50%, -50%);
+	height: 130px;
+	width: 130px;
+	box-shadow: 34px 20px 0 0px #ffffff;
+	border-radius: 50%;
+}
+
+section h2 {
+    font-size: 135px;
+    color: #fff;
+    font-family: 'Sketsa Ramadhan', sans-serif !important;   
+    letter-spacing: 3px;
+	position: absolute;
+    top: 48%;
+    left: 33%;
+}
+
+.particles-js-canvas-el {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-height: 87.5vh;
+}
+
